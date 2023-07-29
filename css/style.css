@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.subheading{
+    color: rgba(0, 0, 0, 0.618);
+    font-size: 1rem;
+    margin-top: -10px;
+}
+.text-black{
+    color: black;
+}
+/* custome buttons css  */
+.NormalBtn{
+    color: white;
+    background-color: #0F3CC9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 250px;
+    height: 50px;
+    margin: 16px 0 16px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.NormalBtn:hover{
+    background-color: #5272d2;
+}
+.TranBtn{
+    color: white;
+    font-size: 16px;
+    border-radius: 250px;
+    height: 50px;
+    margin: 16px 0 16px;
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.423);
+    cursor: pointer;
+}
+.TranBtn:hover{
+    border: 1px solid white;
+}
+.WhiteTransBtn{
+    border: 0;
+    font-size: 16px;
+    border-radius: 250px;
+    color:#62003F;
+    height: 50px;
+    width: 130px;
+    padding: 12px 16px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.WhiteTransBtn:hover{
+    background-color: white;
+}
+.greenTransBtn{
+    border: 0;
+    font-size: 1rem;
+    border-radius: 250px;
+    color:white;
+    font-family: 900;
+    height: 40px;
+    width: 100px;
+    padding: 12px 16px;
+    cursor: pointer;
+    background-color:#0A493F;
+}
+.greenTransBtn:hover{
+    background-color:#062e27;
+}
+.blueBtn{
+    background-color: white;
+    color: #0F3CC9;
+    border: 1px solid rgba(128, 128, 128, 0.633);
+}
+.blueBtn:hover{
+    border: 1px solid #0F3CC9;
+}
+/* Navigation code */
+#navigation{
+    display: flex;
+    background-color: #0F3CC9;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    height: 55px;
+    
+}
+#logo{
+    margin-left: 30px;
+    width: 60px;
+}
+#navigation div{
+    margin: 1rem;
+}
+#navigation div a{
+    font-family: 'Rubik', sans-serif;
+    /* font-weight:500; */
+    color: white;
+    text-decoration: none;
+}
+#navigation form i{
+    margin-left: -228px;
+}
+#userPro{
+    margin-left: 14rem;
+}
+#search{
+    background-color: #0b2983;
+    color: white;
+    padding: 0 0 0 50px;
+    width:200px; 
+    height: 40px;
+    border: 0;
+    border-radius: 250px;
+}
+#search::placeholder{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+/* Section 1 banner code */
+#banner
+{
+    background-image: url(/src/section1\ background.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-left: 150px;
+    height: 444px;
+    color: white;
+}
+#banner>h1{
+    font-size: 3.5rem;
+}
+/* section 2 quick menu */
+#Quickmenu{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content:center;
+    padding: 0px 300px;
+}
+#Quickmenu>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #E7EBF8;
+    border-radius: 500px;
+    font-size: 10px;
+    height: 64px;
+    width: 64px;
+    margin: auto; 
+}
+#Quickmenu>div:hover{
+    border-radius: 50px;
+    height: 115px;
+    width: 115px;
+    transition-duration: 0.3s;
+}
+#Quickmenu>div>h4{
+    position: absolute;
+    top: 800px;
+    text-transform: none;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+}
+.section2_icon{
+    height: 30px;
+}
+/* Section 3 jio banner */
+#section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D4238F;
+    height: 650px;
+    padding: 50px;
+}
+#section3>video{
+    margin: 0px -50px;
+    width: 100vw;
+}
+#section3>div{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 90vw;
+    margin: 20px 50px;
+}
+#section3>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 40%;
+}
+#section3_heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+#section3_input{
+    border: 0;
+    border-radius: 250px;
+    font-size: 16px;
+    height: 50px;
+    width: 310px;
+    padding: 0 36px 0 16px;
+}
+#section3_btn{
+    display: absolute;
+    margin-left: -50px;
+    background-color: #0F3CC9;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border: 0px;
+    border-radius: 250px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+#section3_line{
+    border: 1px solid white;
+    height: 100px;
+    margin: 0px 30px;
+}
+#section3_table{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+#section3_table tr{
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+#section3_table .heading{
+    font-size: 3rem;
+    width: 50px;
+    font-weight: 900;
+}
+#section3_table .heading2{
+    color: #62003F;
+    font-size: 3rem;
+    width: 50px;
+    font-weight: 900;
+}
+#section3_table #table_last{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#section3_table #heading{
+    padding-top: 40px;
+}
+#section3 #subheading{
+    font-size: 1rem;
+    color: white;
+}
+
+/* section 4 of discover new possibilities */
+#section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section4 .heading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#section4 .subheading{
+    color: rgba(0, 0, 0, 0.618);
+    font-size: 1rem;
+    margin-top: -10px;
+}
+#section4>div{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+#section4 .card{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 10px 30px;
+}
+#section4 .card img{
+    width: 10vw;
+}
+#section4 .card .heading{
+    font-size: 2rem;
+}
+/* section 5 Explore a world */
+#section5{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D4238F;
+    height: 550px;
+}
+#section5>div{
+    padding: 100px;
+}
+#section5>div>h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+}
+#section5 video{
+    height: 550px;
+}
+#section5 #jioCinema{
+    display: flex;
+    align-items: center;
+    background-color: #992D73;
+    border: 0;
+    border-radius: 250px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 4px 8px;
+    height: 32px;
+    width: 150px;
+}
+#section5 #jioCinema img{
+    height: 24px;
+    width: 45px;
+}
+/* section 6 marquee banners */
+#section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#section6>div>marquee{
+    display:flex;
+    flex-direction: row;
+}
+#section6 .card{
+    display: inline-block;
+    height: 225px;
+    width: 370px;
+    border: 0;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+#section6 .card>p{
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    height: 80px;
+}
+#section6 .card .logo{
+    height: 32px;
+    width: auto;
+}
+#section6 .card>div{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+#section6 .green{
+    background-color: #1ECCB0;
+    color: #062e27;
+}
+#section6 .pink{
+    background-color: #D9008D;
+    color: white;
+}
+#section6 .blue{
+    background-color: #0F3CC9;
+    color: white;
+}
+#section6 .orange{
+    background-color: #FA7D19;
+    color: black;
+}
+
+/* section 7 jioDive */
+#section7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section7>div{
+    display: flex;
+    justify-content: space-between;
+    height: 444px;
+    padding: 20px;
+    width: 65%;
+}
+#section7 #background{
+    background-image: url(/src/section7/dive-side-desk.webp);
+    background-repeat: no-repeat;
+    height: inherit;
+    width: inherit;
+    background-size:cover;
+}
+#section7 .heading{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+#section7 .subheading{
+    font-size: 1rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: -40px;
+}
+#section7>div .heading{
+    font-size: 2rem;
+}
+#section7>div .subheading{
+    font-size: 1rem;
+    margin-top: -20px;
+}
+#section7 .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* section 8 cards  */
+#section8{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+#section8 .card{
+    border: 0;
+    height: 460px;
+    width: 384px;
+    color: white;
+    border-radius: 20px;
+    background-color: #0F3CC9;
+}
+#section8 .card>img{
+    border: 0;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+#section8 .card>div{
+    position: absolute;
+    height: 150px;
+    width: 345px;
+    padding:20px 20px;
+    margin-top: -60px;
+    /* border: 1px solid red; */
+    background-color: #0F3CC9;
+    border-radius:80px;
+}
+#section8 .card>div>h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+#section8 .card .WhiteTransBtn{
+    font-weight: 900;
+    width: 200px;
+    color: #061951;
+}
+/* section 9 latest and treanding  */
+#section9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 665px;
+}
+#section9>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px 0px;
+}
+#section9 .card{
+    height: 360px;
+    width: 380px;
+    margin: 8px 0px 12px;
+    padding: 16px 10px;
+    background-color: rgb(247, 247, 247);
+    border: 0.5px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    box-shadow: rgb(244, 244, 244) 0px 1px;
+    cursor: pointer;
+}
+#section9 .card:hover{
+    box-shadow: rgb(244, 244, 244) 7px 6px;
+}
+.batch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    background-color: #0C5273;
+    color: white;
+    font-size: 16px;
+    margin: 5px 0px 10px 15px;
+    font-weight: 500;
+    width: 120PX;
+    height: 23px;
+}
+.hidden{
+    /* display: none; */
+    visibility: hidden;
+}
+#section9>h4{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#section9 .blueBtn{
+    width: 170px;
+}
+/* Footer syle */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 412px;
+}
+footer table{
+    text-align: center;
+    height: 348px;
+    width: 80%;
+    padding: 40px 0;
+}
+footer table th{
+    height: 24px;
+    font-size: 16px;
+}
+footer table td{
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.638);
+}
+footer table td:hover{
+    background-color: rgb(204, 203, 203);
+}
+footer>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid rgba(0, 0, 0, 0.236); */
+    border-top: 1px solid rgba(0, 0, 0, 0.236);
+    height: 50px;
+    padding: 0px 50px;
+    width: 100%;
+}
+footer>div>a{
+    color: black;
+    text-decoration: none;
+}
+footer>div>a:hover{
+    color: #0F3CC9;
+}
